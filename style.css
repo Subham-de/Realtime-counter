@@ -1,0 +1,42 @@
+body {
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    font-family: cursive;
+}
+
+.container {
+    background-color: lightskyblue;
+    padding: 20px;
+    border: solid 2px black;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 2px darkgray;
+    font-family: cursive;
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-counter{
+    color: darkred;
+}
+.Remaining-counter{
+    color: rgb(4, 106, 4);
+}
